@@ -1,0 +1,12 @@
+.hotelsList {
+    display: grid;
+    gap: 12px;
+}
+
+@media (min-width: 1008px) {
+    
+    .hotelsList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}

@@ -1,0 +1,110 @@
+.content {
+    padding: 0px 10px;
+}
+
+.titleSection {
+    background-color: #F0572D;
+    color: #FFFFFF;
+}
+
+.titleSectionContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleContainer {}
+
+.locationSection {
+    background-color: #DFE4EA;
+    padding: 10px;
+}
+
+.locationSectionContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.locationContainer {
+    display: flex;
+    width: 50%;
+}
+
+.locationLogo {
+    width: 13px;
+    align-self: flex-start;
+}
+
+.locationText {
+    margin-left: 10px;
+    width: 250px;
+}
+
+.distance {
+    display: none;
+}
+
+.scoreContainer {
+    display: flex;
+    align-items: center;
+}
+
+.qualityContainer {
+    width: 100px;
+}
+
+.quality {
+    color: #F0572D;
+    font-weight: bold;
+}
+
+.score {
+    background-color: #F0572D;
+    border-radius: 12px;
+    padding: 4px 14px;
+    font-weight: bolder;
+    font-size: 1.4rem;
+    color: #DFE4EA;
+    margin-left: 7px;
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+
+    .content {
+        padding: 0px 20px;
+    }
+
+    .locationSection {
+        padding: 10px 20px;
+    }
+
+    .locationText {
+        width: 100%;
+    }
+
+    .distance {
+        display: block;
+    }
+}
+
+@media (min-width: 1008px) {
+
+    .content {
+        padding: 0px 20px;
+    }
+
+    .backToHome:hover {
+        cursor: pointer;
+    }
+
+    .locationSection {
+        padding: 10px 20px;
+    }
+
+    .locationText {
+        width: 100%;
+    }
+
+    .distance {
+        display: block;
+    }
+}

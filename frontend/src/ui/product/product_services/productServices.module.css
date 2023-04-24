@@ -1,0 +1,41 @@
+/* .content {
+    padding: 0px 10px;
+} */
+
+.title {
+    border-bottom: solid #F0572D;
+    margin-bottom: 20px;
+}
+
+.serviceList {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.service {
+    margin: 10px 20px;
+    display: flex;
+}
+
+.serviceIcon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+
+    .serviceList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (min-width: 1008px) {
+
+    .serviceList {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}

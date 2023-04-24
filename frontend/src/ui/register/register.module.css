@@ -1,0 +1,136 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.title {
+    margin-bottom: 20px;
+    color: #F0572D;
+}
+
+.formRegister {
+    display: flex;
+    flex-direction: column;
+}
+
+.nameContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.nameInputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.nameInputContainer > label {
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.inputContainer > label {
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.nameInput {
+    font-size: 12px;
+    padding: 14px;
+    width: 300px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nameInput:focus {
+    outline: none;
+}
+
+.input {
+    width: 100%;
+    font-size: 12px;
+    padding: 14px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.input:focus {
+    outline: none;
+}
+
+.formError {
+    color: red;
+}
+
+.succesAlert {
+    align-self: center;
+    font-size: 16px;
+    background-color: #F0572D;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.submitContainer {
+    text-align: center;
+    margin-top: 28px;
+}
+
+.submitContainer > button {
+    margin-bottom: 16px;
+    font-size: 16px;
+    background-color: #F0572D;
+    padding: 8px 60px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    background-color: #EE8669;
+}
+
+.submitContainer div {
+    font-size: 12px;
+}
+
+.submitContainer span {
+    font-weight: bold;
+}
+
+.navigationLink {
+    margin-left: 4px;
+    padding: 0;
+    border: none;
+    background: none;
+    color: #F0572D;
+    font-weight: bold;
+}
+
+.navigationLink:hover {
+    color: #EE8669;
+}
+
+@media (max-width: 640px) {
+    .register {
+        width: 100%;
+    }
+
+    .nameContainer {
+        flex-direction: column;
+    }
+}

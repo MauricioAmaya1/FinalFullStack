@@ -1,0 +1,50 @@
+.bookingCalendarMobile,
+.bookingCalendarMobile>div.rmdp-wrapper,
+.bookingCalendarMobile>div.rmdp-wrapper>div.rmdp-top-class,
+.bookingCalendarMobile>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar,
+.bookingCalendarMobile>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div.rmdp-header,
+.bookingCalendarMobile>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker {
+    width: 100%;
+}
+
+.bookingCalendarMobile>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker {
+    justify-content: space-around;
+}
+
+.bookingCalendarMobile>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker>div {
+    width: 60%;
+}
+
+
+@media (min-width: 641px) {
+
+    .bookingCalendar,
+    .bookingCalendar>div.rmdp-wrapper,
+    .bookingCalendar>div.rmdp-wrapper>div.rmdp-top-class,
+    .bookingCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar,
+    .bookingCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div.rmdp-header,
+    .bookingCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker {
+        width: 100%;
+    }
+
+    .bookingCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker {
+        justify-content: space-around;
+    }
+
+    @media (max-width: 1007px) {
+
+        .bookingCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker>div {
+            width: 40%;
+        }
+
+    }
+
+    @media (min-width: 1008px) {
+
+        .bookingCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker>div {
+            width: 35%;
+        }
+
+    }
+
+}

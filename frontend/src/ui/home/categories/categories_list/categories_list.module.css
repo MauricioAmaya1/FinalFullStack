@@ -1,0 +1,20 @@
+.categoriesList {
+    display: grid;
+    gap: 12px;
+}
+
+@media (min-width: 640px) {
+    
+    .categoriesList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media (min-width: 1180px) {
+    
+    .categoriesList {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+}

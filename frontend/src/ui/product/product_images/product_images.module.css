@@ -1,0 +1,95 @@
+.productImagesVisibility {
+    display: none;
+}
+
+.productImagesSliderVisibility {
+    z-index: 1;
+    position: relative;
+}
+
+.productImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 448px;
+    padding: 24px 0;
+    position: relative;
+}
+
+.productImages img {
+    width: 100%;
+    height: 100%;
+}
+
+.productImages .mainImage {
+    width: 100%;
+    height: 400px;
+}
+
+.productImages .secondaryImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    height: 390px;
+    gap: 10px;
+}
+
+.productImages .imageItem {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.productImages .viewMore {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 0;
+    bottom: 24px;
+    margin: 10px 14px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.imageGalleryWrapper {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 72px;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageGallery {
+    max-width: 880px;
+    position: relative;
+}
+
+.imageGallery .closeButton {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+/* Slider */
+
+@media (min-width: 1008px) {
+
+    .productImagesVisibility {
+        display: inherit;
+    }
+
+    .productImagesSliderVisibility {
+        display: none;
+    }
+
+}

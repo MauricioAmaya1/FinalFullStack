@@ -1,0 +1,52 @@
+/* .content {
+    padding: 0px 10px;
+} */
+
+.title {
+    border-bottom: solid #F0572D;
+    margin: 20px 0px;
+}
+
+.rulesList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subList {
+    list-style: none;
+    width: 395px;
+}
+
+.subtitle {
+    margin: 30px 0px;
+}
+
+.listItem {
+    margin: 10px 0px;
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+
+    /* .content {
+        padding: 0px 20px;
+    } */
+
+    .subList:nth-child(1) {
+        width: 280px;
+    }
+}
+
+@media (min-width: 1008px) {
+    
+    /* .content {
+        padding: 0px 20px;
+    } */
+
+    .subList:nth-child(1) {
+        width: 280px;
+    }
+
+    .subList:nth-child(2) {
+        margin-right: 30px;
+    }
+}

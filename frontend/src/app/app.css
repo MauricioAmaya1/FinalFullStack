@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+@import "react-image-gallery/styles/css/image-gallery.css";
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin-bottom: 80px;
+    min-width: 350px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1380px;
+}
+
+.row {
+    margin: 0 12px;
+}
+
+.ignoreRow {
+    margin: 0px;
+}
+
+@media (min-width: 640px) {
+
+    .row {
+        margin: 0 24px;
+    }
+
+}
+
+button {
+    cursor: pointer;
+}

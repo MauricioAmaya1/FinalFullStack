@@ -1,0 +1,12 @@
+.reservesList {
+    display: grid;
+    gap: 12px;
+}
+
+@media (min-width: 1008px) {
+    
+    .reservesList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}

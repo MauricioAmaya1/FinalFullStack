@@ -1,0 +1,134 @@
+.containerBookingFormDetails {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.completeYourInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+}
+
+.bookingForm {
+    display: flex;
+    background-color: #fff;
+    gap: 20px;
+    border-radius: 7px;
+    padding: 20px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    flex-direction: column;
+}
+
+.containerBookingInput {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bookingInput {
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 6px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.bookingCalendarPcContainer {
+    display: none;
+}
+
+.containerBookingTime {}
+
+.bookingTime {
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 30px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.checkIcon {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.containerBookingDetails {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 7px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.imgBookingDetails {
+    width: 100%;
+    aspect-ratio: 1.65/1;
+    object-fit: cover;
+}
+
+.bookingDetails {
+    padding: 30px 20px 0px 20px;
+}
+
+.bookingDetailsCheck {
+    padding: 30px 0px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+.btnBooking {
+    padding: 10px;
+    margin: 20px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F0572D;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.btnBooking:hover {
+    transform: translateY(-3px);
+    transform: scaleX(0.93) scaleY(0.93);
+}
+
+.errorBooking {
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    width: 400px;
+}
+
+@media (min-width: 641px) {
+
+    .bookingCalendarPcContainer {
+        display: block;
+    }
+
+    .bookingCalendarMobileContainer {
+        display: none;
+    }
+
+    .bookingForm {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 1007px) {}
+
+    @media (min-width: 1008px) {
+
+        .containerBookingFormDetails {
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 50px;
+        }
+
+    }
+
+}

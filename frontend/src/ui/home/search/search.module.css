@@ -1,0 +1,20 @@
+.search {
+    background-color: #191B1D;
+}
+
+.searchContent {
+    padding: 22px 0;
+}
+
+.search h1 {
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 22px;
+    line-height: 35px;
+}
+
+@media (min-width: 640px) {
+    .search h1 {
+        margin-bottom: 18px;
+    }
+}

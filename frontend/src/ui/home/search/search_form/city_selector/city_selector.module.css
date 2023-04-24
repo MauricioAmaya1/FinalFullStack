@@ -1,0 +1,41 @@
+.citySelector {
+    width: 100%;
+}
+
+.citySelectorPlaceholder, .citySelectorSingleValue {
+    display: flex;
+    align-items: center;
+}
+
+.citySelectorPlaceholder img, .citySelectorSingleValue img {
+    margin-right: 10px;
+}
+
+.citySelectorOption {
+    display: flex!important;
+    align-items: center!important;
+}
+
+/*.citySelectorControl {
+    
+}*/
+
+.citySelectorOption img {
+    margin-right: 10px;
+}
+
+@media (min-width: 640px) {
+    
+    .citySelector {
+        width: 260px;
+    }
+    
+}
+
+@media (min-width: 980px) {
+    
+    .citySelector {
+        width: 380px;
+    }
+    
+}

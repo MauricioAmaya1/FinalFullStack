@@ -1,0 +1,192 @@
+.hotel {
+    display: flex;
+    height: 260px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    overflow: hidden;
+}
+
+.hotelImage {
+    width: 300px;
+    min-width: 50%;
+    max-width: 50%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    padding: 16px;
+}
+
+.hotelImage>img {
+    width: 20px;
+}
+
+.hotelDetail {
+    padding: 10px;
+    flex-grow: 1;
+    width: 100px;
+}
+
+.hotelDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #31363F;
+}
+
+.hotelHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotelCategory {
+    display: flex;
+    flex-direction: column;
+}
+
+.hotelCategory>span {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.hotelReview {
+    text-align: right;
+}
+
+.hotelReview p {
+    display: none;
+}
+
+.hotelReview>span {
+    margin-bottom: 8px;
+    padding: 2px 12px;
+    border-radius: 10px;
+    background-color: #31363F;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hotelReview>p {
+    margin-top: 4px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.hotelLocation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size: 14px;
+    display: none;
+}
+
+.hotelLocation>img {
+    width: 12px;
+    margin-right: 6px;
+}
+
+.hotelLocation span {}
+
+.hotelLocation a {
+    text-transform: uppercase;
+    color: #F0572D;
+    font-weight: bold;
+}
+
+.hotelServices {
+    display: none;
+}
+
+.hotelServices img {
+    width: 30px;
+}
+
+.hotelDescription {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.reserveContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+}
+
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.hotelMoreButton {
+    color: #FFFFFF;
+    padding: 5px 10px;
+    background-color: #F0572D;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.deleteButton {
+    background-color: red;
+}
+
+.hotelMoreButton:hover {
+    background-color: #EE8669;
+}
+
+@media (max-width: 320px) {
+
+    .buttonContainer {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    .hotelMoreButton {
+        padding: 5px 10px;
+    }
+
+}
+
+@media (min-width: 641px) {
+
+    .hotelMoreButton {
+        padding: 10px 20px;
+    }
+
+    @media (max-width: 1007px) {
+
+        .hotelReview p {
+            display: block;
+        }
+
+        .hotelServices {
+            display: block;
+        }
+
+    }
+
+    @media (min-width: 1008px) {
+
+        .hotelReview p {
+            display: block;
+        }
+
+        .hotelServices {
+            display: block;
+        }
+
+        .deleteButton:hover {
+            background-color: #D13A3A;
+        }
+
+    }
+
+}

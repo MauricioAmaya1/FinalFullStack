@@ -1,0 +1,96 @@
+.containerProductCalendar {
+    margin: 20px 0px;
+}
+
+.title {
+    border-bottom: solid #F0572D;
+    margin: 20px 0px;
+}
+
+.productCalendarPcContainer {
+    display: none;
+}
+
+.productCalendarMobileContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.productReserve {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0px 8px 8px 0px rgb(0 0 0 / 25%);
+}
+
+.btnProduct {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F0572D;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 60%;
+}
+
+.btnProduct:hover {
+    background-color: rgb(255, 113, 74);
+    transition-delay: 0.06s;
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+
+    .productCalendarMobileContainer {
+        display: none;
+    }
+
+    .productCalendarPcContainer {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .productReserve {
+        flex-direction: row;
+        gap: 20px;
+        width: fit-content;
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0px;
+    }
+
+    .btnProduct {
+        width: 35vw;
+    }
+
+}
+
+@media (min-width: 1008px) {
+
+    .productCalendarMobileContainer {
+        display: none;
+    }
+
+    .productCalendarPcContainer {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .btnProduct {
+        width: 70%;
+    }
+
+    .productReserve {
+        width: 50%;
+    }
+}

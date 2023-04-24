@@ -1,0 +1,109 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+}
+
+.requireLogin {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+    color: #F0572D;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.inputContainer > label {
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.input {
+    font-size: 12px;
+    padding: 14px;
+    width: 300px;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.input:focus {
+    outline: none;
+}
+
+.errorAlert {
+    color: red;
+}
+
+.submitContainer {
+    text-align: center;
+    margin-top: 28px;
+}
+
+.submitContainer > button {
+    margin-bottom: 16px;
+    font-size: 16px;
+    background-color: #F0572D;
+    padding: 8px 60px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    background-color: #EE8669;
+}
+
+.formError {
+    color: red;
+}
+
+.succesAlert {
+    align-self: center;
+    font-size: 16px;
+    background-color: #F0572D;
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.submitContainer div {
+    font-size: 12px;
+}
+
+.submitContainer span {
+    font-weight: bold;
+}
+
+.navigationLink {
+    margin-left: 4px;
+    padding: 0;
+    border: none;
+    background: none;
+    color: #F0572D;
+    font-weight: bold;
+}
+
+.navigationLink:hover {
+    color: #EE8669;
+}

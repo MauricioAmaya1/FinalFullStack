@@ -1,0 +1,108 @@
+.userMenu {
+    position: fixed;
+    background-color: aliceblue;
+    right: 0px;
+    top: 0px;
+    height: 100vh;
+    width: 75%;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerMenu {
+    background-color: #F0572D;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 200px;
+    justify-content: space-between;
+}
+
+.closeMenu {
+    width: 20px;
+}
+
+.userContainer {
+    align-self: flex-end;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    text-align: end;
+}
+
+.userIcon {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    padding: 10px 12px;
+    border-style: none;
+}
+
+.welcomeContainer {
+    font-weight: bolder;
+}
+
+.welcome {
+    color: #FFFFFF;
+}
+
+.headerTitle {
+    align-self: flex-end;
+    color: #FFFFFF;
+}
+
+.contentContainer {
+    flex: 1;
+}
+
+.list {
+    padding: 10px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.listOptions {
+    position: relative;
+    text-align: end;
+    font-weight: bold;
+}
+
+.listOptions:not(:last-child):after {
+    content: "";
+    display: block;
+    margin: 1em auto;
+    border-bottom: 3px solid #F0572D;
+    width: 100%;
+}
+
+.menuFooter {
+    min-height:50px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+
+.closeSessionContainer {
+    text-align: end;
+    border-bottom: solid 2px #F0572D;
+}
+
+.closeSession {
+    color: #F0572D;
+}
+
+.socialMedia {
+    display: flex;
+    list-style: none;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+ 
+.socialMediaIcon {
+    width: 30px;
+}
+
+.socialMediaListItem:not(:last-child) {
+    margin-right: 30px;
+}

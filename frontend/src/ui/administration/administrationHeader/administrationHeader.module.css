@@ -1,0 +1,17 @@
+.administrationHeader {
+    background-color: #F0572D;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.title {
+    color: white;
+}
+
+.navigateBack {
+    cursor: pointer;
+}

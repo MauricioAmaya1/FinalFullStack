@@ -1,0 +1,113 @@
+.header {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: flex-end;
+    height: 52px;
+    border: none;
+    background: none;
+}
+
+.logoContainer > img {
+    height: 52px;
+}
+
+.menuCel {
+    display: none;
+}
+
+.title {
+    margin-left: 12px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.btnContainer {
+    display: flex;
+    align-items: flex-end;
+}
+
+.administration {
+    align-self: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.userContainer {
+    display: flex;
+}
+
+.userName {
+    color: #F0572D;
+    font-weight: bolder;
+}
+
+.closeSessionIcon {
+    align-self: baseline;
+    cursor: pointer;
+}
+
+.btn {
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    padding: 6px 30px;
+    border-radius: 5px;
+    color: #F0572D;
+    border: solid 1px #F0572D;
+    font-weight: bold;
+}
+
+.userIcon {
+    margin-left: 0px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    padding: 10px 12px;
+}
+
+.btn:hover {
+    background-color: #F0572D;
+    color: #FFFFFF;
+}
+
+@media (max-width: 640px) {
+
+    .logoContainer {
+        width: 0;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .menuCel {
+        display: block;
+    }
+
+    .btnContainer {
+        display: none;
+    }
+  }
+
+@media (min-width: 641px) and (max-width: 1007px)  {
+
+    .logoContainer {
+        width: 0;
+    }
+
+    .title {
+        display: none;
+    }
+
+  }

@@ -1,0 +1,263 @@
+.administrationForm {}
+
+.administrationForm h3 {
+    margin: 25px 0px;
+}
+
+.administrationForm h3::after {
+    content: ' ';
+    display: block;
+    border: 2px solid #F0572D;
+}
+
+.title {
+    margin: 50px 0 20px 0px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFF;
+    padding: 50px 30px 100px 30px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nameCategory {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.input {
+    padding: 10px;
+    border-style: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.errorAlert {
+    color: red;
+    font-size: 0.8rem;
+}
+
+.select {
+    text-transform: capitalize;
+}
+
+.locationCity {}
+
+.locationContainer::after {
+    content: ' ';
+    display: block;
+    border: 2px solid #F0572D;
+    margin: 25px 0px;
+}
+
+.containerLocation {}
+
+.inputDescription {
+    height: 200px;
+}
+
+.addButton {
+    background-color: #F0572D;
+    width: 100px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    padding: 2.5px;
+    align-self: center;
+    margin-top: 15px;
+    border-style: none;
+}
+
+.atributesImgContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+.atributeImgContainer {
+    display: flex;
+    align-content: center;
+    gap: 10px;
+}
+
+.atributeImg {
+    width: 30px;
+}
+
+.atributeName {
+    text-transform: capitalize;
+}
+
+.politicsInputsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.politicsSectionContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.politicsContainer label {
+    margin: 10px 0px;
+}
+
+.politicsContainer h5 {
+    margin-bottom: 10px;
+}
+
+.inputPolitics {
+    width: 100%;
+    height: 250px;
+}
+
+.imageInputContainer {
+    display: flex;
+    gap: 20px;
+    align-content: center;
+    flex-direction: column;
+}
+
+.inputImages {
+    width: 100%;
+}
+
+.imageButtonsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+
+.uploadImageButton {
+    padding: 10px;
+}
+
+.imagesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.imagesGallery {
+    width: 100%;
+    height: 50%;
+    align-self: center;
+}
+
+.submitButtonsContainer {
+    display: flex;
+    gap: 25%;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.submitButton {
+    margin: 0px;
+    width: 200px;
+    padding: 10px;
+    border-style: none;
+}
+
+.deleteButton {
+    background-color: red;
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {}
+
+@media (min-width: 1008px) {
+
+    .nameCategory {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .inputContainer {
+        width: 45%;
+    }
+
+    .locationCity {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .locationContainer {
+        width: 45%;
+    }
+
+    .locationContainer::after {
+        display: none;
+    }
+
+    .locationInputsContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .containerLocation {
+        width: 100%;
+    }
+
+    .containerCity {
+        align-self: center;
+    }
+
+    .containerLarge {
+        width: 100%;
+    }
+
+    .atributesInputsContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .addButton:hover {
+        background-color: #EE8669;
+        cursor: pointer;
+    }
+
+    .deleteButton:hover {
+        background-color: #D13A3A;
+    }
+
+    .atributesImgContainer {
+        justify-items: flex-start;
+    }
+
+    .atributeImgContainer span {
+        font-size: 1.1rem;
+    }
+
+    .politicsInputsContainer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .containerImage {
+        width: 100%;
+    }
+
+    .imagesGallery {
+        width: 50%;
+    }
+}

@@ -1,0 +1,129 @@
+.dropdown {
+    width: 100%;
+    height: 39px;
+    position: relative;
+    background: #fff;
+    border-radius: 7px;
+    font-size: 15px;
+    z-index: 0;
+}
+
+.dropdown .dropdown-btn {
+    background: #fff;
+    font-weight: 600;
+    color: #755d55;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    width: 100%;
+    height: 39px;
+    border-radius: 7px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-btn {
+    padding-left: 10px;
+}
+
+.dropdown .dropdown-content {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 92%;
+    padding: 15px;
+    background: #fff;
+    font-weight: bold;
+    color: #755d55;
+}
+
+.otherDropdown {
+    width: 390px;
+    height: 39px;
+    position: relative;
+    background: #fff;
+    border-radius: 7px;
+    font-size: 15px;
+    z-index: 0;
+}
+
+.otherDropdown-content {
+    position: absolute;
+    bottom: 110%;
+    left: 0;
+    width: 92%;
+    padding: 15px;
+    background: #fff;
+    font-weight: bold;
+    color: #755d55;
+}
+
+.svgDrop {
+    display: flex;
+    align-items: center;
+}
+
+.svgDropdown {
+    margin-right: 10px;
+    fill: #fff;
+    color: #755d55;
+}
+
+.svgDrop:hover {
+    color: #fff;
+}
+
+.svgDropdown:hover {
+    fill-rule: white;
+}
+
+.dropdown .otherDropdown-content .dropdown-item {
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.2;
+}
+
+.dropdown .otherDropdown-content .dropdown-item:hover {
+    background: #F0572D;
+    color: white;
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    -o-transform: scale(1.09);
+    transform: scale(1.09);
+}
+
+.dropdown .dropdown-content .dropdown-item {
+    cursor: pointer;
+    padding: 10px;
+    transition: all 0.2;
+}
+
+.dropdown .dropdown-content .dropdown-item:hover {
+    background: #F0572D;
+    color: white;
+    -webkit-transform: scale(1.09);
+    -moz-transform: scale(1.09);
+    -ms-transform: scale(1.09);
+    -o-transform: scale(1.09);
+    transform: scale(1.09);
+}
+
+.bookingTime .dropdown .dropdown-btn {
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {
+    .dropdown {
+        width: 100%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .dropdown .dropdown-btn {
+        width: 100%;
+    }
+}

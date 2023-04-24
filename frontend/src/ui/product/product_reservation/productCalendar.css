@@ -1,0 +1,71 @@
+.productCalendarMobile,
+.productCalendarMobile>div.rmdp-wrapper,
+.productCalendarMobile>div.rmdp-wrapper>div.rmdp-top-class,
+.productCalendarMobile>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar,
+.productCalendarMobile>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div.rmdp-header,
+.productCalendarMobile>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker {
+    width: 100%;
+}
+
+.productCalendarMobile>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker {
+    justify-content: space-around;
+}
+
+.productCalendarMobile>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker>div {
+    width: 60%;
+}
+
+.rmdp-week-day {
+    color: #ff501f;
+    font-weight: 900;
+}
+
+.rmdp-day span {
+    font-weight: 600;
+}
+
+.rmdp-header-values {
+    font-weight: 600;
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+
+    .productCalendar,
+    .productCalendar>div.rmdp-wrapper,
+    .productCalendar>div.rmdp-wrapper>div.rmdp-top-class,
+    .productCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar,
+    .productCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div.rmdp-header,
+    .productCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker {
+        width: 100%;
+    }
+
+    .productCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker {
+        justify-content: space-around;
+    }
+
+    .productCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker>div {
+        width: 40%;
+    }
+
+}
+
+@media (min-width: 1008px) {
+
+    .productCalendar,
+    .productCalendar>div.rmdp-wrapper,
+    .productCalendar>div.rmdp-wrapper>div.rmdp-top-class,
+    .productCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar,
+    .productCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div.rmdp-header,
+    .productCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker {
+        width: 100%;
+    }
+
+    .productCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker {
+        justify-content: space-around;
+    }
+
+    .productCalendar>div.rmdp-wrapper>div.rmdp-top-class>div.rmdp-calendar>div>div.rmdp-day-picker>div {
+        width: 35%;
+    }
+
+}
